@@ -1,4 +1,3 @@
-# Demanda & Desenvolvimento
 Demanda: [Jira](https://jira.tce.sc.gov.br/browse/ADV)
 # Pré-requisitos
 * GIT
