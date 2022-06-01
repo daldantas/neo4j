@@ -87,7 +87,7 @@ MATCH (p:Person) RETURN p
 Lista de Medicamentos
 ```sql
 LOAD CSV WITH HEADERS FROM  
-'file:///drugs.csv' AS drug  
+'file:///drug.csv' AS drug  
 CREATE (:Drug {
     code: drug.code,
     name: drug.name
@@ -102,7 +102,7 @@ MATCH (n:Drug) RETURN n LIMIT 50
 Lista de Patologias
 ```sql
 LOAD CSV WITH HEADERS FROM  
-'file:///pathologies.csv' AS pathology  
+'file:///pathology.csv' AS pathology  
 CREATE (:Pathology {
     code: pathology.code,
     name: pathology.name
